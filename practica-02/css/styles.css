@@ -1,0 +1,106 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background:#eef2f7;
+  margin:0;
+}
+
+h2{
+  color:#1e3a5f;
+}
+
+.info-estudiante,
+.estadisticas{
+  margin-bottom:20px;
+}
+
+.filtros{
+  margin-bottom:20px;
+}
+
+.btn-filtro{
+  padding:8px 14px;
+  margin-right:8px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  background:#f3f4f6;
+  cursor:pointer;
+}
+
+.btn-filtro-activo{
+  background:#0d3b66;
+  color:white;
+}
+
+#contenedor-lista{
+  display:grid;
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+  transform:translateY(-3px);
+}
+
+.badges{
+  margin-top:10px;
+}
+
+.badge{
+  padding:4px 10px;
+  border-radius:20px;
+  font-size:12px;
+  margin-right:6px;
+}
+
+.badge-categoria{
+  background:#cfe3ff;
+  color:#0b5ed7;
+}
+
+.prioridad-alta{
+  background:#ffd6d6;
+  color:#d90429;
+}
+
+.prioridad-media{
+  background:#ffe7b3;
+  color:#cc8500;
+}
+
+.prioridad-baja{
+  background:#d4f5dd;
+  color:#1b7f3a;
+}
+
+.estado-activo{
+  background:#d4f5dd;
+  color:#1b7f3a;
+}
+
+.estado-inactivo{
+  background:#eee;
+}
+
+.card-actions{
+  margin-top:15px;
+  text-align:right;
+}
+
+.btn-eliminar{
+  background:#ff3b3b;
+  color:white;
+  border:none;
+  padding:8px 14px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.btn-eliminar:hover{
+  background:#cc2c2c;
+}
