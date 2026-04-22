@@ -129,13 +129,27 @@ intervaloId = setInterval(() => {
 ```
 
 ## Capturas
-### Comparativa secuencial vs paralelo con tiempos
-![comparativa](assets/1-comparativa.png)
-### Temporizador funcionando con barra de progreso (Antes de llegar a 10 segundos)
-![temporizador con barra de progreso-1](assets/2-temp-antes-de-10-seg.png)
-### Temporizador funcionando con barra de progreso (Despues de llegar a 10 segundos)
-![temporizador con barra de progreso-2](assets/3-temp-desp-de-10-seg.png)
-### Error capturado y mostrado en UI (try/catch)
-![error mostrado en UI](assets/4-manejo-error.png)
-### Reintentos Automáticos
-![reintentos](assets/5-reintentos.png)
+### **Comparativa secuencial vs paralelo con tiempos**
+<p align="center">
+  <img src="assets/1-comparativa.png" alt="comparativa">
+</p>
+
+### **Temporizador funcionando con barra de progreso (Antes de llegar a 10 segundos)**
+<p align="center">
+  <img src="assets/2-temp-antes-de-10-seg.png" alt="temporizador con barra de progreso-1">
+</p>
+
+### **Temporizador funcionando con barra de progreso (Despues de llegar a 10 segundos)**
+<p align="center">
+  <img src="assets/3-temp-desp-de-10-seg.png" alt="temporizador con barra de progreso-2">
+</p>
+
+### **Error capturado y mostrado en UI (try/catch)**
+<p align="center">
+  <img src="assets/4-manejo-error.png" alt="error mostrado en UI">
+</p>
+
+### **Reintentos Automáticos**
+<p align="center">
+  <img src="assets/5-reintentos.png" alt="reintentos">
+</p>

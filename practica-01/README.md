@@ -1,39 +1,58 @@
-## Estructura del Proyecto
+# Practica JavaScript - Sintaxis
+## **Estructura del Proyecto**
 Captura del explorador de archivos mostrando la organizacion de carpetas y archivos.
 
-![estructura](assets/01-Estructura.png)
+<p align="center">
+  <img src="assets/01-Estructura.png" alt="Estructura">
+</p>
 
-## Consola del Navegador
+## **Consola del Navegador**
 Captura mostrando la salida de la informacion del estudiante, el array (Materias) y object (Dirección).
 
-![consola](assets/02-consola.png)
+<p align="center">
+  <img src="assets/02-consola.png" alt="consola">
+</p>
 
-## Funciones
+## **Funciones**
 Captura de la consola mostrando el retorno de las funciones: calcularPromedio(), esMayorDeEdad(), formatearNombre() y generarSaludo().
 
-![funciones](assets/03-funciones.png)
+<p align="center">
+  <img src="assets/03-funciones.png" alt="funciones">
+</p>
 
-## Arrays
+## **Arrays**
 Captura mostrando los resultados de filter, map, reduce
 
-![arrays](assets/04-arrays.png)
+<p align="center">
+  <img src="assets/04-arrays.png" alt="arrays">
+</p>
 
-## Página renderizada
+## **Página renderizada**
 Captura del navegador mostrando los resultados en el HTML
 
-![pagina](assets/05-pagina.png)
+<p align="center">
+  <img src="assets/05-pagina.png" alt="pagina">
+</p>
 
 ## Código fuente
 ### Capturas del archivo app.js completo
 
-#### Sección de variables
-![js-1](assets/06-appjs-1.png)
+#### **Sección de variables**
+<p align="center">
+  <img src="assets/06-appjs-1.png" alt="js-1">
+</p>
 
-#### Sección de funciones
-![js-2](assets/06-appjs-2.png)
+#### **Sección de funciones**
+<p align="center">
+  <img src="assets/06-appjs-2.png" alt="js-2">
+</p>
 
-#### Sección de arrays
-![js-3](assets/06-appjs-3.png)
+#### **Sección de arrays**
+<p align="center">
+  <img src="assets/06-appjs-3.png" alt="js-3">
+</p>
 
-#### Sección del DOM
-![js-4](assets/06-appjs-4.png)
+#### **Sección del DOM**
+<p align="center">
+  <img src="assets/06-appjs-4.png" alt="js-4">
+</p>

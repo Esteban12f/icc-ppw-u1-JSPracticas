@@ -87,13 +87,27 @@ document.addEventListener('keydown', (e) => {
 Este atajo mejora la accesibilidad y la experiencia del usuario.
 
 ## Capturas
-### Validación en acción
-![validacion](assets/1-validacion-formulario.png)
-### Formulario procesado
-![procesado](assets/2-formulario-procesado.png)
-### Event delegation funcionando
-![delegacion](assets/3-event-delegation.png)
-### Contador de tareas actualizado
-![contador de tareas](assets/4-contador-tareas.png)
-### Tareas completadas
-![tareas completadas](assets/5-tareas-completadas.png)
+### **Validación en acción**
+<p align="center">
+  <img src="assets/1-validacion-formulario.png" alt="validacion">
+</p>
+
+### **Formulario procesado**
+<p align="center">
+  <img src="assets/2-formulario-procesado.png" alt="procesado">
+</p>
+
+### **Event delegation funcionando**
+<p align="center">
+  <img src="assets/3-event-delegation.png" alt="delegacion">
+</p>
+
+### **Contador de tareas actualizado**
+<p align="center">
+  <img src="assets/4-contador-tareas.png" alt="contador de tareas">
+</p>
+
+### **Tareas completadas**
+<p align="center">
+  <img src="assets/5-tareas-completadas.png" alt="tareas completadas">
+</p>

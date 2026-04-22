@@ -131,8 +131,12 @@ function inicializarFiltros() {
 Esto permite que el usuario pueda visualizar únicamente los elementos de una categoría seleccionada.
 
 ## Capturas del funcionamiento
-### Vista general de la aplicación
-![general](assets/vista-general.png)
+### **Vista general de la aplicación**
+<p align="center">
+  <img src="assets/vista-general.png" alt="general">
+</p>
 
-### Filtrado aplicado
-![filtrado](assets/filtrado.png)
+### **Filtrado aplicado**
+<p align="center">
+  <img src="assets/filtrado.png" alt="filtrado">
+</p>
