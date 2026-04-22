@@ -34,13 +34,16 @@ h2{
 #contenedor-lista{
   display:grid;
   gap:20px;
+  grid-template-columns:1fr;
 }
 
 .card{
+  display:grid;
   background:white;
   padding:20px;
   border-radius:10px;
   box-shadow:0 2px 6px rgba(0,0,0,0.1);
+  grid-template-columns:1fr;
 }
 
 .card:hover{
@@ -103,4 +106,16 @@ h2{
 
 .btn-eliminar:hover{
   background:#cc2c2c;
+}
+
+@media (min-width:40rem){
+  #contenedor-lista{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+@media (min-width:64rem){
+  #contenedor-lista{
+    grid-template-columns:1fr 1fr 1fr;
+  }
 }

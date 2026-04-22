@@ -4,9 +4,9 @@
 
 const nombre = "Esteban"
 const apellido = "Hernandez"
-let edad = 22
+const edad = 19
 const carrera = "Ingenieria en Computacion"
-let semestre = 5
+const semestre = 5
 const activo = true
 
 const materias = [
@@ -27,7 +27,7 @@ console.table(direccion)
 
 
 // Funciones
-
+// Calcula el promedio de un arreglo de notas
 const calcularPromedio = (notas) => {
     const suma = notas.reduce((acum, nota) => acum + nota, 0)
     return suma / notas.length
@@ -65,6 +65,7 @@ const nombres = estudiantes.map(e => e.nombre)
 const promedioGeneral =
     estudiantes.reduce((acc, e) => acc + e.nota, 0) / estudiantes.length
 
+// Obtiene el estudiante con la nota más alta
 const mejorEstudiante =
     estudiantes.reduce((max, e) => e.nota > max.nota ? e : max)
 
