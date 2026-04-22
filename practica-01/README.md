@@ -1,7 +1,7 @@
 ## Estructura del Proyecto
 Captura del explorador de archivos mostrando la organizacion de carpetas y archivos.
 
-![estructura](assets/01-estructura.png)
+![estructura](assets/01-Estructura.png)
 
 ## Consola del Navegador
 Captura mostrando la salida de la informacion del estudiante, el array (Materias) y object (Dirección).
