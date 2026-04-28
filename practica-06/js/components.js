@@ -69,23 +69,23 @@ function PostCard(post) {
  */
 function Spinner() {
   // TODO 5.2.1: Crear un div con className 'loading'
-  //   const container = document.createElement('div');
-  //   container.className = 'loading';
+  const container = document.createElement('div');
+  container.className = 'loading';
 
   // TODO 5.2.2: Crear un div con className 'spinner' (el círculo animado)
-  //   const spinner = document.createElement('div');
-  //   spinner.className = 'spinner';
+  const spinner = document.createElement('div');
+  spinner.className = 'spinner';
 
   // TODO 5.2.3: Crear un <p> con textContent 'Cargando posts...'
-  //   const texto = document.createElement('p');
-  //   texto.textContent = 'Cargando posts...';
+  const texto = document.createElement('p');
+  texto.textContent = 'Cargando posts...';
 
   // TODO 5.2.4: Agregar spinner y texto al container con appendChild
-  //   container.appendChild(spinner);
-  //   container.appendChild(texto);
+  container.appendChild(spinner);
+  container.appendChild(texto);
 
   // TODO 5.2.5: Retornar el container
-  //   return container;
+  return container;
 }
 
 /**
@@ -95,23 +95,23 @@ function Spinner() {
  */
 function MensajeError(mensaje) {
   // TODO 5.3.1: Crear un div con className 'error'
-  //   const container = document.createElement('div');
-  //   container.className = 'error';
+  const container = document.createElement('div');
+  container.className = 'error';
 
   // TODO 5.3.2: Crear un <strong> con textContent 'Error'
-  //   const titulo = document.createElement('strong');
-  //   titulo.textContent = 'Error';
+  const titulo = document.createElement('strong');
+  titulo.textContent = 'Error';
 
   // TODO 5.3.3: Crear un <p> con textContent igual al parámetro mensaje
-  //   const texto = document.createElement('p');
-  //   texto.textContent = mensaje;
+  const texto = document.createElement('p');
+  texto.textContent = mensaje;
 
   // TODO 5.3.4: Agregar titulo y texto al container
-  //   container.appendChild(titulo);
-  //   container.appendChild(texto);
+  container.appendChild(titulo);
+  container.appendChild(texto);
 
   // TODO 5.3.5: Retornar el container
-  //   return container;
+  return container;
 }
 
 /**
@@ -121,16 +121,16 @@ function MensajeError(mensaje) {
  */
 function MensajeExito(mensaje) {
   // TODO 5.3.6: Crear un div con className 'success'
-  //   const container = document.createElement('div');
-  //   container.className = 'success';
+  const container = document.createElement('div');
+  container.className = 'success';
 
   // TODO 5.3.7: Crear un <p> con textContent igual al parámetro mensaje
-  //   const texto = document.createElement('p');
-  //   texto.textContent = mensaje;
+  const texto = document.createElement('p');
+  texto.textContent = mensaje;
 
   // TODO 5.3.8: Agregar texto al container y retornar
-  //   container.appendChild(texto);
-  //   return container;
+  container.appendChild(texto);
+  return container;
 }
 
 /**

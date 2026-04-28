@@ -1,0 +1,170 @@
+.input-error {
+  border: 2px solid #e74c3c;
+}
+
+.input-success {
+  border: 2px solid #2ecc71;
+}
+
+.password-strength {
+  font-size: 0.8rem;
+  margin-top: 4px;
+}
+
+/* =========================
+   RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================
+   BASE
+========================= */
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e1e;
+  color: #f5f5f5;
+  padding: 1rem;
+}
+
+/* =========================
+   CONTENEDOR
+========================= */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+/* =========================
+   TITULOS
+========================= */
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* =========================
+   FORMULARIO
+========================= */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #333;
+  color: #fff;
+}
+
+/* Focus */
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+/* =========================
+   ESTADOS
+========================= */
+.input-error {
+  border: 2px solid #e74c3c;
+}
+
+.input-success {
+  border: 2px solid #2ecc71;
+}
+
+/* =========================
+   MENSAJES
+========================= */
+.error {
+  color: #e74c3c;
+  font-size: 0.75rem;
+  height: 14px;
+}
+
+.mensaje {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.oculto {
+  display: none;
+}
+
+/* =========================
+   PASSWORD
+========================= */
+.password-strength {
+  font-size: 0.75rem;
+  margin-top: 0.3rem;
+}
+
+/* =========================
+   CHECKBOX
+========================= */
+.checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* =========================
+   BOTÓN
+========================= */
+button {
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 6px;
+  background: #4a90e2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+/* Tablet */
+@media (min-width: 600px) {
+  .container {
+    padding: 2rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 900px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 600px;
+  }
+}
