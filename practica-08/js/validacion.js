@@ -120,7 +120,7 @@ function validarCampo(input) {
       }
       return true;
 
-    // 🔹 TÉRMINOS
+    // TÉRMINOS
     case 'terminos':
       if (!input.checked) {
         mostrarError(input, 'Debes aceptar los términos');

@@ -44,7 +44,9 @@ const ApiService = {
       console.error('Error en petición:', error);
       throw error;
     }
-  },  /**
+  },  
+  
+  /**
    * GET - Obtener todos los posts (con límite opcional)
    */
   async getPosts(limit = 10) {
@@ -58,7 +60,9 @@ const ApiService = {
   async getPostById(id) {
     // TODO 4.2.2: Retornar el resultado de llamar a this.request() con /posts/{id}
         return this.request(`/posts/${id}`);
-  },  /**
+  },  
+  
+  /**
    * POST - Crear un nuevo post
    */
   async createPost(postData) {
@@ -69,7 +73,9 @@ const ApiService = {
          method: 'POST',
          body: JSON.stringify(postData)
        });
-  },  /**
+  },  
+  
+  /**
    * PUT - Actualizar un post completo
    */
   async updatePost(id, postData) {

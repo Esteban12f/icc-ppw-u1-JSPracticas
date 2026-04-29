@@ -101,15 +101,20 @@ form.addEventListener('submit', (e) => {
   datos.terminos = document.getElementById('terminos').checked;
 
   console.log('Datos guardados:', datos);
+  const contenedor = document.getElementById('resultado');
+  contenedor.innerHTML = ''; // limpiar anterior
 
-  // 🔥 GUARDAR EN LOCALSTORAGE (nuevo)
+  const tarjeta = crearTarjetaUsuario(datos);
+  contenedor.appendChild(tarjeta);
+
+  // GUARDAR EN LOCALSTORAGE (nuevo)
   localStorage.setItem('usuario', JSON.stringify(datos));
 
   // Mostrar éxito
   mensaje.textContent = '✅ Registro exitoso';
   mensaje.style.color = 'green';
 
-  // 🔥 RESET REAL
+  // RESET REAL
   form.reset();
 
   // Limpiar estilos
@@ -119,11 +124,11 @@ form.addEventListener('submit', (e) => {
 
   form.querySelectorAll('.error').forEach(el => el.textContent = '');
 
-  // 🔥 limpiar fuerza password
+  // limpiar fuerza password
   const indicador = document.querySelector('.password-strength');
   if (indicador) indicador.textContent = '';
 
-  // 🔥 deshabilitar botón otra vez
+  // deshabilitar botón otra vez
   btnSubmit.disabled = true;
 });
 
@@ -147,7 +152,7 @@ document.getElementById('telefono').addEventListener('input', (e) => {
 });
 
 /* =========================
-   VALIDAR FORM (SIN UI)
+   VALIDAR FORMULARIO
 ========================= */
 
 function verificarFormularioValido() {
@@ -198,4 +203,53 @@ function verificarFormularioValido() {
   });
 
   btnSubmit.disabled = !valido;
+}
+
+
+function crearTarjetaUsuario(datos) {
+  const card = document.createElement('div');
+  card.className = 'card-usuario';
+
+  const titulo = document.createElement('h2');
+  titulo.textContent = 'Datos Registrados';
+
+  const nombre = document.createElement('p');
+  nombre.textContent = `Nombre: ${datos.nombre}`;
+
+  const email = document.createElement('p');
+  email.textContent = `Email: ${datos.email}`;
+
+  const telefono = document.createElement('p');
+  telefono.textContent = `Teléfono: ${datos.telefono}`;
+
+  const fecha = document.createElement('p');
+  fecha.textContent = `Fecha de nacimiento: ${formatearFecha(datos.fecha)}`;
+
+  const genero = document.createElement('p'); 
+  genero.textContent = `Género: ${capitalizar(datos.genero)}`;
+
+  // armar tarjeta
+  card.appendChild(titulo);
+  card.appendChild(nombre);
+  card.appendChild(email);
+  card.appendChild(telefono);
+  card.appendChild(fecha);
+  card.appendChild(genero);
+
+  return card;
+}
+
+function formatearFecha(fechaISO) {
+  const fecha = new Date(fechaISO);
+
+  return fecha.toLocaleDateString('es-ES', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+  });
+}
+
+function capitalizar(texto) {
+  if (!texto) return '';
+  return texto.charAt(0).toUpperCase() + texto.slice(1);
 }
